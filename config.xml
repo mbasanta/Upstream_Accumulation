@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>ArcMap Add-In Example</Name>
+  <AddInID>f8403b07-0130-1000-5000-c0a801710000</AddInID>
+  <Description></Description>
+  <Version>1.1</Version>
+  <Image></Image>
+  <Author>Matthew Basanta</Author>
+  <Company></Company>
+  <Date>Tue Jul 05 07:33:36 AFT 2011</Date>
+  <Targets>
+    <Target name="Desktop" version="10.0"/>
+  </Targets>
+  <AddIn language="JAVA" library="ArcMapAddIn.jar">
+    <ArcMap>
+      <Commands>
+        <Tool caption="Find Upstream Accumulation" category="ArcGIS Add-ins" class="upStreamAccumulation" cursor="image/Toolcursor.cur" id="findUpStreamAccumulation" image="image/vlc.ico" tip="Find Upstream Accumulation"/>
+      </Commands>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>
